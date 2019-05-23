@@ -1,0 +1,14 @@
+// hacer un redireccionamiento HTTP con Javascript
+window.location.replace('http://ultiminioramos.com');
+window.location = 'http://ultiminioramos.com';
+ 
+// hacer un direccionamiento con Javascript que se agregue al historial del navegador
+window.location.href = 'http://ultiminioramos.com';
+ 
+// hacer un redireccionamiento HTTP con jQuery
+$(window).attr('location', 'http://ultiminioramos.com');
+jQuery(window).attr('location', 'http://ultiminioramos.com');
+ 
+// hacer un direccionamiento con jQuery que se agregue al historial del navegador
+$(location).attr('href', 'http://ultiminioramos.com');
+jQuery(location).attr('href', 'http://ultiminioramos.com');
